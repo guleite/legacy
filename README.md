@@ -4,6 +4,8 @@ Proposta de layout (pitch) da Concept Agência para a Legacy: soluções interna
 
 Site estático: HTML/CSS/JS + GSAP, ScrollTrigger e Lenis via CDN; globo 3D com `cobe` (módulo ESM do jsDelivr, com globo pontilhado em CSS se a biblioteca não carregar).
 
+No ar: https://guleite.github.io/legacy/ (repositório público github.com/guleite/legacy, GitHub Pages servindo a branch `main`; cada push na main publica de novo). Página com `noindex` e `robots.txt` bloqueando buscadores.
+
 Rodar local: `npx http-server legacy -p 5193 -c-1` (entrada "legacy" no `.claude/launch.json`). Depois de editar CSS/JS, subir o `?v=N` no `index.html`.
 
 ## Referência
